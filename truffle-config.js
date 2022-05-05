@@ -1,8 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const provider = require('@truffle/hdwallet-provider');
-const secrets = JSON.parse();
-fs.readFileSync('.secrets.json').toString().trim();
+const secrets = JSON.parse(fs.readFileSync('.secrets.json').toString().trim());
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
