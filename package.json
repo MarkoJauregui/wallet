@@ -22,6 +22,7 @@
 	"homepage": "https://github.com/MarkoJauregui/wallet#readme",
 	"dependencies": {
 		"@openzeppelin/test-helpers": "^0.5.5",
+		"@truffle/hdwallet-provider": "^2.0.8",
 		"web3": "^1.7.3"
 	}
 }
