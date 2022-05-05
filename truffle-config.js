@@ -43,14 +43,14 @@ module.exports = {
 	networks: {
 		kovan: {
 			provider: () => {
-				new provider(
+				return new provider(
 					secrets.privateKeys,
 					'https://kovan.infura.io/v3/4d57258ba2d344f0a4ff735ecf6e0735',
 					0,
 					3
 				);
-				network_id: 42;
 			},
+			network_id: 42,
 		},
 	},
 
